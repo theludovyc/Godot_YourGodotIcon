@@ -23,6 +23,12 @@ config/icon="res://icon.png"
 
 settings/fps/force_fps=60
 
+[display]
+
+window/size/width=525
+window/size/height=475
+window/size/resizable=false
+
 [rendering]
 
 quality/intended_usage/framebuffer_allocation=0
