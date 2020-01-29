@@ -41,6 +41,6 @@ func _on_Button_button_down():
 	pass # Replace with function body.
 
 func _on_FileDialog_file_selected(path):
-	#TODO
+	$Head.savePNG(path)
 	print(path)
 	pass # Replace with function body.
